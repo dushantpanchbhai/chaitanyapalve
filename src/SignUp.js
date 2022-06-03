@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function SignUp() {
   const [username, setUsername] = useState("");
+  const [name,setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading,setLoading] = useState(false);
@@ -33,6 +34,19 @@ function SignUp() {
             //   handleSubmit(e);
             // }}
           >
+            <div className="mb-3">
+              <label className="form-label">Name</label>
+              <input
+                type="text"
+                className="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                value={name}
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+              />
+            </div>
             <div className="mb-3">
               <label className="form-label">Username</label>
               <input
