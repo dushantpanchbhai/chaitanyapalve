@@ -1,0 +1,103 @@
+#Login-page
+{
+    background: linear-gradient(-45deg, #ee765283, #e73c7e66, #23a5d5af, #23d5ab87);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	40% {
+		background-position: 80% 50%;
+	}
+	50% {
+		background-position: 0% 50%;
+	}
+}
+
+.ngo_title
+{
+    padding-top: 30px;
+}
+
+#top_bar {
+    margin: auto;
+    text-align: center;
+  }
+  
+  #short_title {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .login-container {
+    display: flex !important;
+    margin-top: 20px;
+  }
+  
+  #login-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 28%;
+    border-radius: 15px;
+    padding: 5px 25px 20px 25px;
+  }
+  
+  .login-title {
+    text-align: center;
+    border: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  #filling-form > button {
+    margin-top: 5px;
+    background-color: #eb3d34;
+    border: none;
+    width: 100%;
+    align-items: center !important;
+    border: auto;
+    align-self: center;
+  }
+  
+  .login-bottom {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .forgot-password {
+    margin: 3px 0px 6px 0px !important;
+  }
+  
+  .no-account {
+    font-size: 14px;
+  }
+  
+  .spinner-border {
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+  }
+  
+  .loader {
+      display: flex;
+      text-align: center;
+  }
+
+@media screen and (max-width: 768px) {
+    #login-content{
+        width: 80%;
+    }
+    .login-title {
+        font-size: 40px;
+        font-weight: 500;
+      }
+  }
+  
