@@ -6,6 +6,7 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const [isVolunter,setIsVolunter] = useState(false);
 
   return (
     <div className="container" id="Login-page">
