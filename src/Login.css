@@ -1,12 +1,17 @@
-/* #Login-page
+#Login-page2
 {
-
-} */
+    background: linear-gradient(-45deg, #ee765283, #e73c7e66, #23a5d5af, #23d5ab87);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    padding-bottom: 30px;
+    height: 100vh;
+}
 
 #top_bar
 {
     margin: auto;
     text-align: center;
+    padding-top: 30px;
 }
 
 #short_title
@@ -32,12 +37,12 @@
     padding: 5px 25px 20px 25px;
 }
 
-.login-title
+.login-title2
 {
     text-align: center;
     border: auto;
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -66,4 +71,21 @@
 .no-account
 {
     font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .ngo_title{
+        font-size: 20px;
+    }
+    
+    #login-content{
+        width: 80%;
+    }
+    .login-title {
+        font-size: 30px;
+        font-weight: 500;
+      }
+      .login-container{
+          padding-bottom: 20px;
+      }
 }

@@ -6,17 +6,16 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
-  const [isVolunter,setIsVolunter] = useState(false);
+
 
   return (
-    <div className="container" id="Login-page">
-      <div className="mt-5" id="top_bar">
-        <h1>NGO</h1>
+    <div id="Login-page2">
+      <div id="top_bar">
+        <h1 className="ngo_title">NGO</h1>
       </div>
-
       <div className="login-container">
         <div className="card" id="login-content">
-          <div className="login-title">Log In</div>
+          <div className="login-title2">Log In</div>
           <hr></hr>
           <form
             id="filling-form"

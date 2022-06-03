@@ -8,6 +8,7 @@ function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading,setLoading] = useState(false);
+  const [isVolunter,setIsVolunter] = useState(false);
 
   const HandleSubmit = (e) => {
       e.preventDefault();
@@ -16,13 +17,13 @@ function SignUp() {
       setUsername("");
       setEmail("");
       setPassword("");
-  }
+  } 
   
   return (
     <div id="Login-page">
       <div id="top_bar">
         <h1 className="ngo_title">NGO</h1>
-        <span id="short_title">Let's start by creating your account</span>
+        {/* <span id="short_title">Let's start by creating your account</span> */}
       </div>
       <div className="login-container">
         <div className="card" id="login-content">
@@ -88,7 +89,7 @@ function SignUp() {
             <button
               type="submit"
               className="btn btn-primary"
-              //   onClick={(e) => {
+              // onClick={(e) => {
               //     handleSubmit(e);
               //   }}
             >
