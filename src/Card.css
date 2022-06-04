@@ -1,0 +1,17 @@
+.card-group1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#card_main
+{
+    margin: 20px;
+}
+
+.card
+{
+    margin: 20px;
+}
