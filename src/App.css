@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+.banner{
+  position:relative;
+  width:100%;
+  height:40vh;
+  max-height: 800px;
+  background: url('./images/banner1.webp');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.cname{
+  font-size: 32px;
+  display: flex;
+  color:black;
+  font-weight: bolder;
+  padding-top: 30px;
+  justify-content: center;
+}
+.caption{ 
+  text-align: center;
+  color: black;
+  margin-bottom: 40px;
+}
+.donate{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: bottom;
+}
+.btn-d{
+  min-width:100px;
+  max-width: 200px;
+  min-height: 40px;
+  margin:10px 30px;
+  border-radius:0 !important;
+  border:2px solid #2b6777 !important;
+  color:black !important;
+}
+.btn-d:hover{
+  background-color:  #2b6777 !important;
+  color:white !important;
+}
+.btn-d:active,:focus{
+box-shadow: none !important;
+}
+.prgwrap{
+  max-width:90vw;
+  margin:30px auto;
+}
+.programs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.prghead{
+margin:30px;
+text-align:center;
+color:black;
+}
+.card{
+  color:black !important;
+  max-width: 400px;
+  min-height: 200px;
+  margin:20px;
+}
+.cardbody1{
+  background-image: url('./images/cb.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardbody2{
+  background-image: url('./images/cardbg2_1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardbody3{
+  background-image: url('./images/cardbg3_1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardtext{
+  display: block;
+  font-weight: bolder;
+  font-size: 22px;
+  margin:20% auto;
+  color:black;
+  text-align: center;
+}
+@media only screen and (max-width: 750px) {
+.ms-auto{
+margin-right: auto !important;
+}
+}
+@media only screen and (max-width: 600px) {
+  .cname{
+    padding-top: 20px;
+  }
+  .banner{
+    height: 33vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .cname{
+    padding-top: 20px;
+  }
+  .banner{
+    height: 40vh;
+  }
+}
+
+.logonav{
+  min-width: 170px;
+  max-height: 80px;
+}
+.nlink{
+  margin-right:30px;
+  font-size: 22px;
+  color:white !important;
+}
+.nlinkbtn{
+  margin-right:30px;
+  font-size: 22px;
+  background-color:white !important;
+  border-radius: 0 !important;
+  color:black !important;
+  padding: 8px 22px !important;
+}
+.nbar{
+  background-color:#2b6777
+  !important;
+
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.gallery{
+  max-width:60vw;
+  margin:30px auto;
+}
+
+.modalbtn{
+  background-color: #2b6777 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}

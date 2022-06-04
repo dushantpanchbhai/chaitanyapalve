@@ -1,0 +1,21 @@
+.prgwrap{
+    max-width:90vw;
+    margin:30px auto;
+  }
+  .programs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .prghead{
+  margin:30px;
+  text-align:center;
+  color:black;
+  }
+  .card-sponsors{
+    max-width:150px;
+    min-height:40px;
+  }
+.sp-logo{
+    max-width: 100%;
+}
